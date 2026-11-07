@@ -1,0 +1,116 @@
+site_name: Outlands - DK工会
+site_url: https://github.io/redsoft110/dk
+theme:
+
+  name: material
+  icon:
+     logo: material/dog
+  palette:
+
+   - media: "(prefers-color-scheme: light)"  
+     scheme: default
+     primary: custom   # 标记为自定义，由css接管
+     accent: custom
+     toggle:
+        icon: material/weather-night
+        name: 深色模式
+   - media: "(prefers-color-scheme: dark)"  
+     scheme: slate
+     primary: custom
+     accent: custom
+     toggle:
+        icon: material/weather-sunny
+        name: 正常模式
+
+extra_css:
+- stylesheets/extra.css
+- https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+language: zh
+
+features:
+  #  - navigation.tabs
+     - navigation.top
+  #  - navigation.sections
+  #  - navigation.instant
+  #  - content.code.annotate
+  #  - content.code.copy
+  #  - content.code.tab
+  #  - content.tabs.link
+  #  - content.tooltips
+  #  - content.footnotes
+  #  - content.footers
+     - search.highlight
+  
+copyright: 'copyright © 2000-2026 Micsys All Rights Reserved'
+
+nav:
+  - home: index.md
+  - 测试: test.md
+   
+  - code : 
+    - html: index.md
+    - php: index.md
+    - css: user_guide/index.md
+    - javascript: code/javascript/index.md
+    - python: index.md
+    - java: index.md
+    - c: index.md
+    - c++: index.md
+    - c#: index.md
+    - php:  index.md
+    - go: index.md
+    - rust: index.md
+    - shell: index.md
+    - sql: index.md
+    - ruby: index.md
+    - swift: index.md
+    - kotlin: index.md
+    - dart: index.md
+    - typescript: index.md
+    - assembly: index.md
+    - mysql: index.md
+    - postgresql: index.md
+    - mongodb: index.md
+    - vue:  index.md
+    - react: index.md
+    - angular: index.md
+    - flutter:  index.md
+    - svelte: index.md
+    - laravel: index.md
+    - django: index.md
+    - spring: index.md
+    - express: index.md
+    - flask: index.md
+    - fastapi: index.md
+    
+  - system: 
+    - linux: index.md
+    - debian: index.md
+    - ubuntu: index.md
+    - windows: index.md
+    - dos: index.md
+
+  - 论坛:
+      - 论坛首页: 
+         - 论坛: linux/linux.md
+
+  - mkdocs: code.md
+
+  - 音标: yinbiao.md
+
+  - uo: taminbestiary.md
+
+extra:
+  generator: false
+     
+
