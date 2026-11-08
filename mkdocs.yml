@@ -4,7 +4,7 @@ theme:
 
   name: material
   icon:
-     logo: material/dog
+     logo: /png/logo.png
   palette:
 
    - media: "(prefers-color-scheme: light)"  
@@ -54,16 +54,14 @@ features:
 copyright: 'copyright © 2000-2026 Micsys All Rights Reserved'
 
 nav:
-  - home: index.md
-  - 测试: test.md
-   
-  - 技能 skills: 
-    - html: index.md
-    - php: index.md
-    - css: user_guide/index.md
-    - javascript: code/javascript/index.md
-    - python: index.md
-    - java: index.md
+  - 首页: index.md
+  - 技能-skills: 
+    - 解破学-Anatomy: Anatomy/index.md
+    - 射箭-Archery: index.md
+    - 双持-Dual Wielding: index.md
+    - 骑士精神-Chivalry: code/javascript/index.md
+    - 击剑-Fencing: index.md
+    - 疗愈-Healing: index.md
     - c: index.md
     - c++: index.md
     - c#: index.md
