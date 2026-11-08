@@ -54,7 +54,7 @@ features:
 copyright: 'copyright © 2000-2026 Micsys All Rights Reserved'
 
 nav:
-  - home: index.md
+  - home: /dk/index.md
   - 测试: test.md
    
   - code : 
