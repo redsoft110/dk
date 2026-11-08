@@ -3,7 +3,7 @@ site_url: https://redsoft110.github.io/dk/
 theme:
 
   name: material
-  logo: png/logo.png
+  logo: assests/logo.png
   palette:
 
    - media: "(prefers-color-scheme: light)"  
