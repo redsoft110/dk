@@ -3,6 +3,7 @@ site_url: https://dk.micsys.org
 theme:
   name: material
   logo: assests/logo.png
+  favicon: assests/logo.png
   palette:
 
    - media: "(prefers-color-scheme: light)"  
@@ -54,57 +55,11 @@ copyright: 'copyright © 2000-2026 Micsys All Rights Reserved'
 nav:
   - 首页: index.md
   - 技能-skills: 
-    - 解破学-Anatomy: Anatomy/index.md
-    - 射箭-Archery: index.md
-    - 双持-Dual Wielding: index.md
-    - 骑士精神-Chivalry: code/javascript/index.md
-    - 击剑-Fencing: index.md
-    - 疗愈-Healing: index.md
-    - c: index.md
-    - c++: index.md
-    - c#: index.md
-    - php:  index.md
-    - go: index.md
-    - rust: index.md
-    - shell: index.md
-    - sql: index.md
-    - ruby: index.md
-    - swift: index.md
-    - kotlin: index.md
-    - dart: index.md
-    - typescript: index.md
-    - assembly: index.md
-    - mysql: index.md
-    - postgresql: index.md
-    - mongodb: index.md
-    - vue:  index.md
-    - react: index.md
-    - angular: index.md
-    - flutter:  index.md
-    - svelte: index.md
-    - laravel: index.md
-    - django: index.md
-    - spring: index.md
-    - express: index.md
-    - flask: index.md
-    - fastapi: index.md
-    
-  - system: 
-    - linux: index.md
-    - debian: index.md
-    - ubuntu: index.md
-    - windows: index.md
-    - dos: index.md
-
-  - 论坛:
-      - 论坛首页: 
-         - 论坛: linux/linux.md
-
-  - mkdocs: code.md
-
-  - 音标: yinbiao.md
-
-  - uo: taminbestiary.md
+    - 解破学-Anatomy: skills/Anatomy.md
+    - 射箭-Archery: skills/Archery.md
+    - 双持-Dual Wielding: skills/Dual Wielding.md
+    - 骑士精神-Chivalry: skills/Chivalry.md
+  
 
 extra:
   generator: false
