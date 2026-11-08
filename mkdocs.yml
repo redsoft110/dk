@@ -54,10 +54,10 @@ features:
 copyright: 'copyright © 2000-2026 Micsys All Rights Reserved'
 
 nav:
-  - home: /dk/index.md
+  - home: index.md
   - 测试: test.md
    
-  - code : 
+  - 技能 skills: 
     - html: index.md
     - php: index.md
     - css: user_guide/index.md
