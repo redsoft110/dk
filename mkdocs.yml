@@ -59,7 +59,7 @@ nav:
     - 射箭-Archery: skills/Archery.md
     - 双持-Dual Wielding: skills/Dual Wielding.md
     - 骑士精神-Chivalry: skills/Chivalry.md
-  
+  - 设置: settings.md
 
 extra:
   generator: false
