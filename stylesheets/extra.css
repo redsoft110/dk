@@ -1,0 +1,99 @@
+/* ========== 浅色模式 default ========== */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #346797;    /* 导航栏背景 */
+  --md-primary-fg-color--light: #69b1ff;
+  --md-primary-fg-color--dark:  #0039cb;
+  --md-primary-bg-color:        #ffffff;
+  --md-typeset-a-color:         #69b1ff;
+
+  --md-code-hl-keyword-color: #c084fc;
+  --md-code-hl-string-color: #34d399;
+  --md-code-hl-number-color: #fb923c;
+  --md-code-hl-function-color: #60a5fa;
+  --md-code-hl-constant-color: #a5b4fc;
+  --md-code-hl-comment-color: #9ca3af;
+  --md-code-hl-punctuation-color: #e5e7eb;
+  --md-code-hl-operator-color: #f87171;
+  --md-code-hl-variable-color: #bfdbfe;
+
+  
+  
+   --md-accent-fg-color:         #f56c6c;   /* 链接/高亮强调色 */
+  --md-accent-fg-color--transparent: rgba(245,108,108,0.1);
+
+  /* 页面正文背景、文字 */
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #222222;
+  
+   .md-typeset pre {
+  background-color: transparent !important;
+  border-radius: 1rem !important;  /* ✅ 圆角大小，0.5rem=小圆角，1rem=大圆角 */
+  box-shadow: none !important;
+  overflow: hidden !important;      /* ✅ 关键！防止代码内容溢出圆角外面 */
+}
+
+/* 行内单行代码 `code`（文中短代码）圆角 */
+.md-typeset :not(pre) > code {
+  background-color: transparent;
+  border-radius: 0.3rem;
+}/* 导航栏文字底色 */
+
+ 
+}
+
+/* ========== 深色模式 slate ========== */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #4287ff26;
+  --md-primary-fg-color--light: #69b1ff;
+  --md-primary-fg-color--dark:  #0039cb;
+  --md-primary-bg-color:        #fffcfc;
+  --md-typeset-a-color:         #69b1ff;  /* 普通链接颜色 */
+  
+  --md-code-bg-color: transparent;
+  --md-code-bg-color: rgba(130,130,130,0.08);
+ # --md-code-fg-color: #53607a;
+  --md-code-hl-keyword-color: #c084fc;
+  --md-code-hl-string-color: #34d399;
+  --md-code-hl-number-color: #fb923c;
+  --md-code-hl-function-color: #60a5fa;
+  --md-code-hl-constant-color: #a5b4fc;
+  --md-code-hl-comment-color: #9ca3af;
+  --md-code-hl-punctuation-color: #e5e7eb;
+  --md-code-hl-operator-color: #f87171;
+  --md-code-hl-variable-color: #bfdbfe;
+   
+
+  --md-accent-fg-color:         #9cc3e9;
+  --md-accent-fg-color--transparent: rgba(236, 239, 241, 0.925);
+
+  --md-default-bg-color: #0f172a;
+  # --md-default-fg-color: #dddddd;
+  --md-default-fg-color:hsla(var(--md-hue),75%,95%,0.80);
+  --md-default-fg-color--light:hsla(var(--md-hue),75%,90%,0.90);
+  --md-default-fg-color--lighter:hsla(var(--md-hue),75%,90%,1.0);
+  --md-default-fg-color--lightest:hsla(var(--md-hue),75%,90%,1.22);
+
+
+  .md-typeset pre {
+  background-color: transparent !important;
+  border-radius: 1rem !important;  /* ✅ 圆角大小，0.5rem=小圆角，1rem=大圆角 */
+  box-shadow: none !important;
+  overflow: hidden !important;      /* ✅ 关键！防止代码内容溢出圆角外面 */
+}
+.md-typeset .md-code {
+  border-radius: 1rem !important;
+  overflow: hidden !important;
+}
+
+/* 行内单行代码 `code`（文中短代码）圆角 */
+  .md-typeset :not(pre) > code {
+  background-color: transparent;
+  border-radius: 0.3rem;
+}
+
+
+
+
+
+
+}
