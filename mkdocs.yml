@@ -60,6 +60,8 @@ nav:
     - 双持-Dual Wielding: skills/Dual Wielding.md
     - 骑士精神-Chivalry: skills/Chivalry.md
   - 系统设置: settings/tongyong.md
+  - 技能书: skillscodex/skillscodex.md
+
 
 extra:
   generator: false
